@@ -26,6 +26,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: a-j-carr
 
+# Trying to get Latex to work
+markdown: kramdown
+
 # Build settings
 theme: minima
 plugins:
