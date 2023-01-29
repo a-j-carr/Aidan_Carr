@@ -1,12 +1,11 @@
 title: Aidan Carr
 author:
-  name: GitHub User
+  name: 
   email: aidan.j.carr@frb.gov
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
-description: >
-  Testing my description.
+description:
 
 # Build settings
 
