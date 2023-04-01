@@ -106,7 +106,7 @@ $$
 Firms earn $$V_i$$ profits between the $$i$$th and $$i + 1$$ innovation, and these profits are discounted according to the time they are earned. The arrival times of these innovations are $$\tau_{(i)}$$ and $$\tau_{(i + 1)}$$, whose distribution we defined above. Also notice that
 
 $$
-B_k = \sum_{i = k}^n b_i = \frac{1}{r} \sum_{i = k}^n V_i (e^{\tau_{i + 1}} - e^{\tau_i}). 
+B_k = \sum_{i = k}^n b_i = \frac{1}{r} \sum_{i = k}^n V_i (e^{r\tau_{(i)}} - e^{r\tau_{(i + 1)}}). 
 $$
 
 The profit conferred to the $$i$$th innovator is simply the sum of all inter-arrival profits following their entry into the market.
@@ -115,8 +115,8 @@ Now that we've defined $$B_k$$, we can express the expected benefit of entering 
 
 $$
 \begin{aligned}
-E[B] &= \sum_{k = 1}^n \sum_{i = k}^n \frac{1}{n} \cdot \frac{V_i}{r} (e^{E[\tau_{i + 1}]} - e^{E[\tau_i]}) \\
-&= \sum_{i = 1}^n \frac{i}{n} \cdot \frac{V_i}{r} (e^{E[\tau_{i + 1}]} - e^{E[\tau_i]}).
+E[B] &= \sum_{k = 1}^n \sum_{i = k}^n \frac{1}{n} \cdot \frac{V_i}{r} (e^{rE[\tau_(i)]} - e^{rE[\tau_{(i + 1)}]}) \\
+&= \sum_{i = 1}^n \frac{i}{n} \cdot \frac{V_i}{r} (e^{rE[\tau_(i)]} - e^{rE[\tau_{(i + 1)}]}).
 \end{aligned}
 $$
 
