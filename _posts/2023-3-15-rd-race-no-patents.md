@@ -100,7 +100,7 @@ Now we will define the distribution of the $$B_k$$ random variables. To do so, w
 
 $$
 b_i = \int_{\tau_{(i)}}^{\tau_{(i + 1)}} V_i e^{-tr} \: dt = \frac{V_i}{r}
-(e^{\tau_{i + 1}} - e^{\tau_i}).
+(e^{r\tau_{(i)}} - e^{r\tau_{(i + 1)}}).
 $$
 
 Firms earn $$V_i$$ profits between the $$i$$th and $$i + 1$$ innovation, and these profits are discounted according to the time they are earned. The arrival times of these innovations are $$\tau_{(i)}$$ and $$\tau_{(i + 1)}$$, whose distribution we defined above. Also notice that
@@ -115,8 +115,9 @@ Now that we've defined $$B_k$$, we can express the expected benefit of entering 
 
 $$
 \begin{aligned}
-E[B] &= \sum_{k = 1}^n \sum_{i = k}^n \frac{1}{n} \cdot \frac{V_i}{r} (e^{rE[\tau_(i)]} - e^{rE[\tau_{(i + 1)}]}) \\
-&= \sum_{i = 1}^n \frac{i}{n} \cdot \frac{V_i}{r} (e^{rE[\tau_(i)]} - e^{rE[\tau_{(i + 1)}]}).
+E[B] &= \sum_{k = 1}^n \sum_{i = k}^n \frac{1}{n} \cdot \frac{V_i}{r} (e^{rE[\tau_{(i)}]} - e^{rE[\tau_{(i + 1)}]}) \\
+&= \sum_{i = 1}^n \frac{i}{n} \cdot \frac{V_i}{r} (e^{rE[\tau_
+{(i)}]} - e^{rE[\tau_{(i + 1)}]}).
 \end{aligned}
 $$
 
