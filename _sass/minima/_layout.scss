@@ -3,7 +3,7 @@
  */
 .site-header {
   border-top: 5px solid $border-color-03;
-  border-bottom: 1px solid $border-color-01;
+  border-bottom: 5px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
 
@@ -31,11 +31,11 @@
 .site-nav {
   position: absolute;
   top: 9px;
-  right: $spacing-unit * .5;
+  left: $spacing-unit * .5;
   background-color: $background-color;
   border: 1px solid $border-color-01;
   border-radius: 5px;
-  text-align: right;
+  text-align: left;
 
   .nav-trigger {
     display: none;
@@ -122,7 +122,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $border-color-01;
+  border-top: 5px solid $border-color-01;
   padding: $spacing-unit 0;
 }
 
