@@ -6,6 +6,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-title: Posts
+title: Blog
 ---
 This is a collection of ideas that I've worked through a bit.

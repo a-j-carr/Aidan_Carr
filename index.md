@@ -1,11 +1,19 @@
 ---
 layout: page
-title: About Me
+title: Bio
 order: 3
 ---
 
-<img style="float: left; padding-right:15px" src="assets/images/forrest_smile.jpg"  width="45%">
+<img style="float: left; padding-right:15px" src="assets/images/forrest_smile.jpg"  width="35%">
 
-I'm currently a research assistant at the Federal Reserve Board of Governers within [Payment System Studies](https://www.federalreserve.gov/econres/rbobspss-staff.htm). I plan on pursing a PhD in Economics. 
+## Aidan Carr  
+**Senior Research Assistant**  
+*Federal Reserve Board*  
+[*Payment System Studies*](https://www.federalreserve.gov/econres/rbobspss-staff.htm)
 
- <form action="assets/pdfs/CV.pdf" method="get" target="_blank"><button type="submit">CV</button></form>
+<a href="assets/pdfs/cv.pdf" target="_blank">
+    <button>CV</button>
+</a> 
+<a href="mailto:{{ site.author.email }}">
+    <button>Email</button>
+</a>
