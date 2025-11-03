@@ -7,6 +7,10 @@ author:
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description:
 
+# URL settings
+baseurl: "/Aidan_Carr" # the subpath of your site, e.g. /blog
+url: "https://a-j-carr.github.io"
+
 # Build settings
 
 theme: minima

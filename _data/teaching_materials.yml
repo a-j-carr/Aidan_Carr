@@ -1,20 +1,20 @@
 - title: "Homework 1 Question 1(ii) (Production Set Characterization)"
-  pdf: "/assets/pdfs/teaching/micro1/hw1_q1(2).pdf"
+  pdf: "{{ site.baseurl }}/assets/pdfs/teaching/micro1/hw1_q1(2).pdf"
 
 - title: "Homework 2 (Convexity, Profit Maximization, Utility Representation)"
-  pdf: "/assets/pdfs/teaching/micro1/hw2_key.pdf"
+  pdf: "{{ site.baseurl }}/assets/pdfs/teaching/micro1/hw2_key.pdf"
 
 - title: "Homework 3 (Conditional Factor Demand, Slutsky Matrix, Topkis)"
-  pdf: "/assets/pdfs/teaching/micro1/micro1_hw3_key.pdf"
+  pdf: "{{ site.baseurl }}/assets/pdfs/teaching/micro1/micro1_hw3_key.pdf"
 
 - title: "Midterm 2024 Key"
-  pdf: "/assets/pdfs/teaching/micro1/micro1_m24_key.pdf"
+  pdf: "{{ site.baseurl }}/assets/pdfs/teaching/micro1/micro1_m24_key.pdf"
 
 - title: "Homework 4 (Social Choice, Risk)"
-  pdf: "/assets/pdfs/teaching/micro1/micro1_hw4_key.pdf"
+  pdf: "{{ site.baseurl }}/assets/pdfs/teaching/micro1/micro1_hw4_key.pdf"
 
 - title: "Final 2024 Key"
-  pdf: "/assets/pdfs/teaching/micro1/micro1_final24_key.pdf"
+  pdf: "{{ site.baseurl }}/assets/pdfs/teaching/micro1/micro1_final24_key.pdf"
 
 # Add more materials by following the same format:
 # - title: "Your Title"
