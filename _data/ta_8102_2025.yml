@@ -1,0 +1,15 @@
+- title: "Deterministic GE with non-CRS Production"
+  pdf: "/assets/pdfs/teaching/micro2/micro2_rec1.pdf"
+
+- title: "Deterministic GE with CRS Production"
+  pdf: "/assets/pdfs/teaching/micro2/micro2_rec2.pdf"
+
+- title: "Midterm 2020 Key"
+  pdf: "/assets/pdfs/teaching/micro2/midterm_2020_key.pdf"
+
+- title: "Prelim 2024 Question 2 Key"
+  pdf: "/assets/pdfs/teaching/micro2/2024qual_q2_key.pdf"
+
+# Add more materials by following the same format:
+# - title: "Your Title"
+#   pdf: "/assets/pdfs/your_file.pdf"
