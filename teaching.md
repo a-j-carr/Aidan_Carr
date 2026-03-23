@@ -21,5 +21,9 @@ order: 3
 [{{ material.title }}]({{ site.baseurl }}{{ material.pdf }})
 {% endfor %}
 
+### Micro 4 (8104)
 
+{% for material in site.data.ta_8104_2026 %}
+[{{ material.title }}]({{ site.baseurl }}{{ material.pdf }})
+{% endfor %}
 
