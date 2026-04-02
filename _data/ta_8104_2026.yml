@@ -3,7 +3,10 @@
 
 - title: "War of Attrition Example"
   pdf: "/assets/pdfs/teaching/micro4/micro4_recitation2.pdf"
-  
+
+- title: "Cooperative Game Theory and Groves-Clarke Mechanisms"
+  pdf: "/assets/pdfs/teaching/micro4/micro4_recitation3.pdf"
+
 # Add more materials by following the same format:
 # - title: "Your Title"
 #   pdf: "/assets/pdfs/your_file.pdf"
